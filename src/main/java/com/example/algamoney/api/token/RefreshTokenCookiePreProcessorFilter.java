@@ -54,7 +54,7 @@ public class RefreshTokenCookiePreProcessorFilter implements Filter {
 		
 		public MyServeletRequestWrapper(HttpServletRequest request, String refreshToken) {
 			super(request);
-			this.refreshToken = refreshToken;
+			this.refreshToken = refreshToken; 
 		}
 		
 		@Override
